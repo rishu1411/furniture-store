@@ -17,12 +17,12 @@ import Image from 'next/image';
 const ProductSlider = () => {
  
   return (
-    <Swiper modules={[Pagination, Navigation,  Keyboard]} navigation={ true} pagination={{clickable:true}} spaceBetween={30} speed={800}  scrollbar={ true} className='productSlider min-h-[1300px]'>
+    <Swiper modules={[Pagination, Navigation,  Keyboard]} navigation={ true} pagination={{clickable:true}} spaceBetween={30} speed={800}  scrollbar={ true} className='productSlider min-h-[1300px] '>
       {
         stats.map((index) => {
           return (
             <SwiperSlide key={index}>
-            <div className='grid max-[550px]:grid-cols-1 grid-cols-2 gap-x-5 md:grid-cols-3 lg:grid-cols-4 lg:gap-x-[30px] '>
+            <div className='grid max-[550px]:grid-cols-1 grid-cols-2 gap-x-5 md:grid-cols-3 lg:grid-cols-4 lg:gap-x-[30px] max-[550px]:mx-28 '>
             {
               productList.map((product, index) => {
                 const {name,price,oldPrice,image,icon } = product

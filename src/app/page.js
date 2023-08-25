@@ -10,7 +10,7 @@ import React from 'react'
 
 function page() {
   return (
-    <div className='w-full mx-auto container max-w-[1440px] bg-[#fbfaf9] '>
+    <div className='w-full container mx-auto max-w-[1440px] bg-[#fbfaf9] '>
       <Hero />
       <Features />
       <NewItems />

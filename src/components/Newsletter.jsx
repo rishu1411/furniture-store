@@ -12,7 +12,7 @@ const Newsletter = () => {
           <h2 className='text-4xl font-semibold max-w-[350px] mx-auto lg:max-0 ,b-5 leading-normal'>{title}</h2>
           <p className='text-xl font-light mb-10 '>{subtitle}</p>
           
-          <div className='flex flex-col lg:flex-row gap-[22px]'>
+          <div className='flex flex-col lg:flex-row gap-[22px] mx-5'>
             <input type="email" name="input" id="input" className='h-[60px] px-6 outline-none placeholder:text-gray-400 text-gray-600 rounded-lg lg:flex-1' placeholder={ placeholder} />
             <button className='bg-primary h-[60px] hover:bg-slate-900 px-7 rounded-lg font-medium text-xl transition'> { buttonText}</button>
           </div>
