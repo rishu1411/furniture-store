@@ -14,6 +14,9 @@ module.exports = {
         
         lg: '1.5rem',
       },
+      margin: {
+        DEFAULT: ''
+      }
     },
     screens: {
       sm: '640px',

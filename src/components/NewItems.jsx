@@ -20,7 +20,8 @@ const NewItems = () => {
           </span>
           </div>
           {/* slider */}
-          <div className='lg:max-w-[800px] xl:max-w-[990px] lg:absolute lg:right-2 '>
+    
+        <div className='lg:max-w-[800px] xl:max-w-[990px] lg:absolute lg:-right-4   '>
 
          <NewItemsSlider/>
           </div>
